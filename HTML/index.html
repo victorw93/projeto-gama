@@ -14,7 +14,8 @@
 </head>
 <body>
     
-    <!-- Black with white text -->
+<!-- NavBar Black with white text -->
+
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
         <ul class="navbar-nav">
             <li class="nav-item active">
@@ -31,30 +32,74 @@
         </ul>
     </nav>
 
+<!-- Jumbo text  -->
+
     <div class="jumbotron text-center" style="margin-bottom:0">
         <h1>Minha Loja</h1>
         <p>Produtos variados de grandes marcas e com preço acessível</p>
     </div>
 
+<!-- Carousel -->
+
+    <div id="demo" class="carousel slide mx-auto" data-ride="carousel">
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/sp.jpg" alt="São Paulo">
+            <div class="carousel-caption">
+              <h2><kbd>São Paulo</kbd></h2>
+            </div>   
+          </div>
+
+          <div class="carousel-item">
+            <img src="https://s1.1zoom.me/b5654/180/Spain_Madrid_Houses_Evening_Street_518020_1920x1080.jpg" alt="Madrid">
+            <div class="carousel-caption">
+              <h2><kbd>Madrid</kbd></h2>            
+            </div>   
+          </div>
+
+          <div class="carousel-item">
+            <img src="./img/ny.jpg" alt="New York">
+            <div class="carousel-caption">
+              <h2><kbd>New York</kbd></h2>
+            </div>   
+          </div>
+        </div>
+    </div>
+
+<!-- Items Column -->  
+
     <div class="row">
         <div class="col">
-            <img src="https://cdn.awsli.com.br/500x500/1975/1975471/produto/129819586/236b04db51.jpg" class="img-thumbnail" alt="" width="15%" style="margin: 5px 0px 0px 200px;" >
+            <img src="https://cdn.awsli.com.br/500x500/1975/1975471/produto/129819586/236b04db51.jpg" class="mx-auto img-fluid" alt="" width="20%" >
             <h4>$70.00</h4>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint esse necessitatibus nulla alias asperiores ab, deleniti minima minus ducimus, excepturi obcaecati exercitationem illum ullam laboriosam, expedita perspiciatis delectus possimus at.</p>
         </div>
 
         <div class="col">
-            <img src="https://www.ecofabrica.com.br/wp-content/uploads/2020/06/VINHO-1-UN-NYLON-600-2020-500x500.jpg" class="img-thumbnail" alt="" width="15%" style="margin: 5px 0px 0px 200px;">
+            <img src="https://www.ecofabrica.com.br/wp-content/uploads/2020/06/VINHO-1-UN-NYLON-600-2020-500x500.jpg" class="mx-auto img-fluid" alt="" width="20%">
             <h4>$50.00</h4>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam libero iure ducimus veritatis dolor ea!</p>
         </div>
 
         <div class="col">
-            <img src="https://marcoboni.com.br/wp-content/uploads/2021/12/Escovas-Polvo-removebg-preview.png" class="img-thumbnail" alt="" width="15%" style="margin: 5px 0px 0px 200px;">
+            <img src="https://marcoboni.com.br/wp-content/uploads/2021/12/Escovas-Polvo-removebg-preview.png" class="mx-auto img-fluid" alt="" width="20%">
             <h4>$30.00</h4>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt, blanditiis?</p>
         </div>
       </div>
+
+    
+<!-- Footer -->  
+
+      <footer>
+        <p id="direitos"  >© 2022 devTaPrecisando - Todos os direitos reservados</p>
+      </footer>
 
 
 </body>

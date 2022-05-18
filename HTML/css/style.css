@@ -1,13 +1,37 @@
 body{
-    background-image: url(https://i.pinimg.com/originals/4a/83/6c/4a836ce41818c32b072646bca584ea4a.jpg);
+   /* background-image: url(https://i.pinimg.com/originals/4a/83/6c/4a836ce41818c32b072646bca584ea4a.jpg); */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
 }
 
 p{
-    color: white;
-    text-align: center;
+   /* color: white; */
+   text-align: center;
 }
 
 h4{
     color: red;
+    text-align: center;
 }
+
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 35%;
+    height: 35%;
+  }
+
+  .row{
+    margin-top: 50px;
+  }
+
+  .col{
+      text-align: center;
+  }
+
+  .carousel-item{
+      text-align: center;
+  }
+
+  #tituloQms{
+      text-align: center;
+      margin-top: 25px;
+  }
